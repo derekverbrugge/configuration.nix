@@ -13,7 +13,7 @@
       ./kernel.nix
     ];
 
-  nix.trustedUsers = [ "root" "morgan" ];
+  nix.trustedUsers = [ "root" "derek" ];
 
   nixpkgs.config.allowUnfree = true;
 
