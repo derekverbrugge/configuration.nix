@@ -119,7 +119,6 @@
   services.xserver.enable = true;
 
   # Enable Gnome!
-  # I have sinned (Avi).
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
 
