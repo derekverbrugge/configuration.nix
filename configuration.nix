@@ -32,12 +32,56 @@
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
-    wget chromium git tmate wdiff psmisc zip nix-prefetch-git vim
-    gnumake gcc binutils-unwrapped ncurses5 zlib.dev scrot
-    gnupg dos2unix xmobar fd tilix dmenu networkmanager
-    mkpasswd zip unzip i7z jq htop discord xscreensaver
-    inkscape graphviz python39 vlc file rustup
-    doctl kubectl lsof stack vscodium cloc
+    cabal-install
+    cabal2nix
+    wget 
+    chromium
+    google-chrome
+    git
+    gimp-with-plugins
+    tmate 
+    wdiff 
+    psmisc 
+    zip 
+    nix-prefetch-git 
+    vim
+    gnumake 
+    gcc 
+    binutils-unwrapped 
+    ncurses5 
+    zlib.dev 
+    scrot
+    gnupg 
+    dos2unix 
+    xmobar 
+    fd 
+    tilix 
+    dmenu 
+    networkmanager
+    mkpasswd 
+    zip 
+    unzip 
+    i7z 
+    jq 
+    htop 
+    discord 
+    xscreensaver
+    inkscape 
+    graphviz 
+    python39 
+    vlc 
+    file 
+    rustup
+    doctl 
+    kubectl 
+    lsof 
+    stack 
+    vscodium
+    cloc
+    libreoffice
+    filezilla
+    youtube-dl
+    zoom-us
   ];
 
   #services.ntp.enable = true;
@@ -90,6 +134,7 @@
   services.locate.enable = true;
   services.tailscale.enable = true;
 
+  #adds Steam
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
