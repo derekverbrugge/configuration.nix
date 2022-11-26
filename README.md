@@ -1,2 +1,4 @@
-# nixconfig
-My personal nixconfig for nixOs.
+My NixOs configuration.
+
+Rebuild NixOs configuration by running the following command:
+sudo nixos-rebuild switch
