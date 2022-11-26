@@ -1,4 +1,8 @@
-My NixOs configuration.
+<h1>My NixOs configuration.</h1>
 
-Rebuild NixOs configuration by running the following command:
-sudo nixos-rebuild switch
+Replace/edit your configuration.nix file.</br>
+Rebuild the NixOs configuration by running the following command:</br>
+</br>
+<code>
+  sudo nixos-rebuild switch
+</code>
